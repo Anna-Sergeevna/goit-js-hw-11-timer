@@ -1,0 +1,35 @@
+body {
+  font-family: "Rubik Beastly", cursive;
+  background-color: #000000;
+  color: goldenrod;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-shadow: 2px 1px 4px;
+  font-family: "Marck Script", sans-serif;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 100px;
+}
+
+.label {
+  font-size: 30px;
+}
